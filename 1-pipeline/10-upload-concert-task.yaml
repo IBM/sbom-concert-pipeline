@@ -56,7 +56,7 @@ spec:
           instance_id: "0000-0000-0000-0000"
           auth:
             token:
-              token: ${TOKEN}
+              token: "${TOKEN}"
         input-data:
           application-def:
             - file: "${APPDEF_SBOM}"
